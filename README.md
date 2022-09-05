@@ -9,3 +9,5 @@ Next, I installed Active Directory and created a domain, then setup NAT so that 
 Lastly, I ran a powershell script that will create about 1000 users in Active Directory on the domain controller. After creating the users, I created another virtual machine with a network adapter that will attach to the internal network. I installed Windows 10 on this VM to ensure it automatically gets a proper IP address from the DHCP server.
 
 To check the network works, I joined the domain with this computer to log into it with one of the accounts I created, which basically concluded the lab.
+
+A demonstration on my home lab: https://youtu.be/ghLCwL0125c
